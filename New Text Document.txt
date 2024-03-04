@@ -1,0 +1,209 @@
+
+
+//new setup mix all 
+*********************************************************************
+{
+  // editor
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  "terminal.integrated.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.cursorWidth": 3,
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#122033",
+    "terminal.foreground": "#2ECFA8",
+    "terminalCursor.background": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    "editorCursor.foreground": "#d82756",
+    "terminalCursor.foreground": "#27a04c",
+    "editor.mouseWheelZoom": true,
+    "editor.cursorWidth": 3,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 5,
+    "editor.tabSize": 2,
+    "window.menuBarVisibility": "toggle"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorWidth": 3,
+  "files.autoSave": "onFocusChange",
+  "editor.stickyScroll.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "editor.smoothScrolling": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  // for json add me
+  "emmet.showSuggestionsAsSnippets": true,
+  "files.associations": {
+    "*html": "html",
+    "*njk": "html"
+  },
+  "editor.tabSize": 2,
+  "workbench.list.multiSelectModifier": "alt",
+  "reactSnippets.settings.prettierEnabled": true
+}
+
+
+**********************************************************************
+{
+// editor
+"editor.fontSize": 20,
+"editor.fontFamily": "Fira Code, Operator Mono",
+"editor.fontLigatures": true,
+"editor.wordWrap": "on",
+"editor.minimap.enabled": false,
+"editor.tokenColorCustomizations": {
+"textMateRules": [
+{
+"scope": "comment",
+"settings": {
+"fontStyle": "italic"
+}
+}
+]
+},
+// cursor
+"editor.cursorSmoothCaretAnimation": true,
+"editor.cursorBlinking": "expand",
+// config related to code formatting
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.formatOnSave": true,
+"[javascript]": {
+"editor.formatOnSave": false,
+"editor.defaultFormatter": null
+},
+"[javascriptreact]": {
+"editor.formatOnSave": false,
+"editor.defaultFormatter": null
+},
+"editor.codeActionsOnSave": {
+"source.fixAll.eslint": true,
+"source.fixAll.tslint": true,
+"source.organizeImports": true
+},
+"eslint.alwaysShowStatus": true,
+//terminal
+"terminal.integrated.fontSize": 16,
+"terminal.integrated.fontWeight": "normal",
+"terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+"workbench.colorTheme": "Community Material Theme Darker High Contrast",
+"workbench.iconTheme": "vscode-icons",
+// terminal customization
+"workbench.colorCustomizations": {
+"terminal.background": "#1D2021",
+"terminal.foreground": "#A89984",
+"terminalCursor.background": "#A89984",
+"terminalCursor.foreground": "#A89984",
+"terminal.ansiBlack": "#1D2021",
+"terminal.ansiBlue": "#0D6678",
+"terminal.ansiBrightBlack": "#665C54",
+"terminal.ansiBrightBlue": "#0D6678",
+"terminal.ansiBrightCyan": "#8BA59B",
+"terminal.ansiBrightGreen": "#95C085",
+"terminal.ansiBrightMagenta": "#8F4673",
+"terminal.ansiBrightRed": "#FB543F",
+"terminal.ansiBrightWhite": "#FDF4C1",
+"terminal.ansiBrightYellow": "#FAC03B",
+"terminal.ansiCyan": "#8BA59B",
+"terminal.ansiGreen": "#95C085",
+"terminal.ansiMagenta": "#8F4673",
+"terminal.ansiRed": "#FB543F",
+"terminal.ansiWhite": "#A89984",
+"terminal.ansiYellow": "#FAC03B"
+}
+}
+// this is my old setup
+{
+"workbench.editor.enablePreview": false,
+"workbench.iconTheme": "material-icon-theme",
+"workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
+"editor.fontSize": 16,
+"editor.cursorBlinking": "expand",
+"editor.fontFamily": "'Fira code','Droid Sans Mono', 'monospace', monospace",
+"editor.fontLigatures": true,
+"emmet.includeLanguages": {
+"vue-html": "html",
+"javascript": "javascriptreact"
+},
+"workbench.colorCustomizations": {
+"editorCursor.foreground": "#d82756",
+"terminalCursor.foreground": "#27a04c"
+},
+
+"editor.cursorSmoothCaretAnimation": "explicit",
+"editor.smoothScrolling": true,
+"terminal.integrated.smoothScrolling": true,
+"editor.mouseWheelZoom": true,
+"editor.cursorWidth": 3,
+"editor.formatOnSave": true,
+"terminal.integrated.cursorStyle": "underline",
+"terminal.integrated.cursorStyleInactive": "underline",
+"terminal.integrated.cursorBlinking": true,
+"terminal.integrated.cursorWidth": 5,
+"terminal.integrated.copyOnSelection": true,
+"explorer.confirmDelete": false,
+"editor.tabSize": 2,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"explorer.confirmDragAndDrop": false,
+"window.menuBarVisibility": "toggle",
+"workbench.startupEditor": "none"
+}
